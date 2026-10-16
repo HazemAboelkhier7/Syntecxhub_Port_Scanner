@@ -1,50 +1,25 @@
-
-
-\# Syntecxhub Port Scanner
-
-
+# Syntecxhub Port Scanner
 
 A Python-based TCP port scanner developed as part of the Syntecxhub Cybersecurity Internship.
 
+## Features
 
+- Scan a single authorized host.
+- Specify a TCP port range.
+- Use multithreading for concurrent scans.
+- Handle connection errors and timeouts.
+- Save scan results to a text file.
 
-\## Features
+## Requirements
 
-\- Scan a single authorized host.
+- Python 3.10 or later
 
-\- Specify a TCP port range.
-
-\- Use multithreading for concurrent scans.
-
-\- Handle connection errors and timeouts.
-
-\- Save scan results to a text file.
-
-
-
-\## Requirements
-
-\- Python 3.10 or later
-
-
-
-\## Usage
-
-
+## Usage
 
 ```bash
-
-python port\_scanner.py 127.0.0.1 --start 1 --end 100
-
+python port_scanner.py 127.0.0.1 --start 1 --end 100
 ```
 
-
-
-\## Responsible Use
-
-
+## Responsible Use
 
 Only scan systems you own or have explicit permission to test.
-
-
-
